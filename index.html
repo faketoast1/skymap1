@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exoplanet Exploration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #001f3f; /* Dark background */
+            color: #ffffff; /* Light text for contrast */
+            text-align: center;
+            padding: 20px;
+            margin: 0;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        h2 {
+            font-size: 2em;
+            margin-top: 30px;
+        }
+        p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        img {
+            border: 2px solid #ffffff; /* White border for images */
+            border-radius: 10px; /* Rounded corners */
+            max-width: 100%; /* Responsive image */
+            height: auto;
+            margin: 10px; /* Space between images */
+
+        }
+        .planet-selection {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        footer {
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #cccccc; /* Lighter text for footer */
+        }
+        #planet1-map {
+            border: 1px solid red;
+            margin: auto;
+        }
+        .map-wrapper {
+            width: 100%;
+            border: 1px solid green;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the Exoplanet Site</h1>
+    <p>You may choose from one of these two planets to view the Milky Way from:</p>
+    
+    <div class="planet-selection">
+        <img src="no.png" alt="Planet 1: HD189733b" width="400">
+        <img src="yes.png" alt="Planet 2: HD189733b" width="400">
+    </div>
+    <br>
+    <h2>Planet number 1: Gliese 12 b:</h2>
+
+    <a href="/link_to_star_map.html"><img src="no.png" alt="View of Planet 1: HD189733b" usemap="#workmap" width="500px" height="400px"></a>
+    
+    
+
+
+    <!-- <map name="planet1" id="planet1-map">
+        <area shape="rect" coords="101,28" alt="planet1" href="link_to_star_map.html">
+    </map> -->
+    <br>
+    <h3>Planet number 2:HD189733b </h3>
+
+    <a href="/starmap2.html"><img src="yes.png" alt="View of Planet 1: Gliese 12 b" usemap="#workmap" width="500px" height="400px"></a>
+   
+</body>
+</html>
